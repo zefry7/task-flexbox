@@ -1,6 +1,28 @@
 html,
 body,
 #root {
-    height: 100%;
-    margin: 0;
+height: 100%;
+margin: 0;
+}
+
+.flex-container{
+display: flex;
+justify-content: space-between;
+height: 300px;
+width: 700px;
+}
+
+section > div{
+border-radius: 50px;
+background: #DAA520;
+height: 100px;
+width: 100px;
+}
+
+div:nth-child(2n){
+align-self: center
+}
+
+div:nth-child(3){
+align-self: flex-end
 }
